@@ -1,518 +1,769 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/style.css">
-    
-    <title>Ozio Technologies website</title>
 
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-        <div class="container">
-        <a href="#" class="navbar-brand">Ozio Technologies</a>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Oziofy</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
 
-        <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navmenu"
-      >
-      <span class="navbar-toggler-icon"></span>>
-      </button>
+  <!-- Favicons -->
+  <link href="assets/img/oziofy-icon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-        <div class="collapse navbar-collapse" id="navmenu">
-        
-        <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-                <a href="#pricing" class="nav-link">Services</a>
-            </li>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-            <li class="nav-item">
-                <a href="#questions" class="nav-link">FAQ's</a>
-            </li>
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
 
-            <!--  <li class="nav-item">
-                <a href="#instructors" class="nav-link">Instructors</a>
-            </li>  -->
-            
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
 
-            <li class="nav-item">
-                <a href="#contacts" class="nav-link">Contact us</a>
-            </li>
+  <!-- =======================================================
+  * Template Name: SoftLand
+  * Template URL: https://bootstrapmade.com/softland-bootstrap-app-landing-page-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
 
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/OZIOFY TECHNOLOGIES-Transparent.png" alt="">
+        <!-- <h1 class="sitename">Oziofy</h1> -->
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <!-- <li><a href="#about">About</a></li> -->
+          <li><a href="#features">Features</a></li>
+          <li><a href="#faq">FAQs</a></li>
+          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li> -->
+          <li><a href="contact.html">Contact</a></li>
         </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
 
+    </div>
+  </header>
 
-        <!-- collapse navbar-collapse  -->
-        </div>
+  <main class="main">
 
-        <!-- end ccontainer -->
-        </div>
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
 
-    </nav>
-
-    <!-- Showcase -->
-    <section
-      class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
-    >
       <div class="container">
-        <div class="d-sm-flex align-items-center justify-content-between">
-          <div>
-            <h1>Modern Websites  <span class="text-warning"> for modern business </span></h1>
-            <p class="lead my-4">
-                Get a secure, fast, reliable and fluid website developed with 
-                modern Technologies.
+        <div class="row gy-4">
+          <div class="col-lg-4 order-lg-last hero-img" data-aos="zoom-out">
+            <img src="assets/img/QR2SCREENS2.png" alt="QR Screen" class="phone-1">
+            <!-- <img src="assets/img/phone_2.png" alt="Phone 2" class="phone-2"> -->
+          </div>
+          <div class="col-lg-8 d-flex flex-column justify-content-center align-items text-center text-md-start" data-aos="fade-up">
+            <h2>Power Your Business with Instant Connections!</h2>
+            <p>Transform customer engagement, drive traffic, and boost sales with smart QR Codes.</p>
+            <div class="d-flex mt-4 justify-content-center justify-content-md-start">
+              <a href="#" class="download-btn"><i class="bi bi-google-play"></i> <span>Google Play</span></a>
+              <a href="#" class="download-btn"><i class="bi bi-apple"></i> <span>App Store</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <!-- <section id="about" class="about section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row align-items-xl-center gy-5">
+
+          <div class="col-xl-5 content">
+            <h3>About Us</h3>
+            <h2>Ducimus rerum libero reprehenderit cumque</h2>
+            <p>Ipsa sint sit. Quis ducimus tempore dolores impedit et dolor cumque alias maxime. Enim reiciendis minus et rerum hic non. Dicta quas cum quia maiores iure. Quidem nulla qui assumenda incidunt voluptatem tempora deleniti soluta.</p>
+            <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+          </div>
+
+          <div class="col-xl-7">
+            <div class="row gy-4 icon-boxes">
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon-box">
+                  <i class="bi bi-buildings"></i>
+                  <h3>Eius provident</h3>
+                  <p>Magni repellendus vel ullam hic officia accusantium ipsa dolor omnis dolor voluptatem</p>
+                </div>
+              </div>  -->
+              <!-- End Icon Box -->
+              <!-- <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box">
+                  <i class="bi bi-clipboard-pulse"></i>
+                  <h3>Rerum aperiam</h3>
+                  <p>Autem saepe animi et aut aspernatur culpa facere. Rerum saepe rerum voluptates quia</p>
+                </div>
+              </div>  -->
+              <!-- End Icon Box -->
+              <!-- <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box">
+                  <i class="bi bi-command"></i>
+                  <h3>Veniam omnis</h3>
+                  <p>Omnis perferendis molestias culpa sed. Recusandae quas possimus. Quod consequatur corrupti</p>
+                </div>
+              </div>  -->
+              <!-- End Icon Box -->
+              <!-- <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="bi bi-graph-up-arrow"></i>
+                  <h3>Delares sapiente</h3>
+                  <p>Sint et dolor voluptas minus possimus nostrum. Reiciendis commodi eligendi omnis quideme lorenda</p>
+                </div>
+              </div>  -->
+              <!-- End Icon Box -->
+            <!-- </div>
+          </div>
+
+        </div>
+      </div>
+    </section> -->
+
+    <!-- /About Section -->
+
+    <!-- Featured Section -->
+    <section id="featured" class="featured section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Bridge the Gap Between Online and Offline!</h2>
+        <p>With smart QR codes, we seamlessly connect 
+           e-commerce, marketing, 
+           and solopreneurs to customers—anytime, anywhere!</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-md-4">
+            <div class="card">
+              <div class="img">
+                <img src="assets/img/scan-whatsapp.png" alt="" class="img-fluid">
+                <!-- <div class="icon"><i class="bi bi-hdd-stack"></i></div> -->
+              </div>
+              <h2 class="title">Offline Touchpoints into data!</h2>
+              <p>
+                With over 2 billion users on whatsapp, make easy for your customers to reach out by scanning your QR Code instore
+              </p>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="card">
+              <div class="img">
+                <img src="assets/img/scan-to-download.png" alt="" class="img-fluid">
+                <!-- <div class="icon"><i class="bi bi-brightness-high"></i></div> -->
+              </div>
+              <h2 class="title">Digitize your Restaurant menus</h2>
+              <p>
+                Turn your restaurant menu into a fully digital 
+                user experience and a point of sale paltform 
+                all thanks to our Smart QR Codes.
+              </p>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="card">
+              <div class="img">
+                <img src="assets/img/scan-tiktok.png" alt="" class="img-fluid">
+                <!-- <div class="icon"><i class="bi bi-calendar4-week"></i></div> -->
+              </div>
+              <h2 class="title">For Digital Content creators.</h2>
+              <p>
+                Bring in new offline fanbase to your Tiktok page during event season with our smart QR Codes.          
+              </p>
+            </div>
+          </div><!-- End Card Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Featured Section -->
+
+    <!-- Cards Section -->
+    <section id="cards" class="cards section">
+
+      <div class="container">
+
+        <div class="text-center mb-4 steps-img" data-aos="zoom-out">
+          <img src="assets/img/steps.svg" alt="">
+        </div>
+
+        <div class="row gy-4">
+
+          <!-- <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-item">
+              <span>01</span>
+              <h4>Sign Up</h4>
+              <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+            </div>
+          </div> -->
+          <!-- Card Item -->
+<!-- 
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="card-item">
+              <span>02</span>
+              <h4><a href="" class="stretched-link">Repellat Nihil</a></h4>
+              <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
+            </div>
+          </div> -->
+          <!-- Card Item -->
+
+          <!-- <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="card-item">
+              <span>03</span>
+              <h4><a href="" class="stretched-link">Ad ad velit qui</a></h4>
+              <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
+            </div>
+          </div> -->
+          <!-- Card Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Cards Section -->
+
+    <!-- Features Section -->
+    <section id="features" class="features section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Features</h2>
+        <p>Leverage Smart QR Codes to Capture Offline Data Effortlessly</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4 align-items-center features-item">
+          <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
+            <img src="assets/img/many-usecase.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
+            <h3>Transform Offline Touchpoints into online Gold</h3>
+            <p class="fst-italic">
+              Say goodbye to static, one-time-use codes. With dynamic QR codes, 
+              you can update content on the fly, 
+              track performance, and customize designs to fit your brand. 
+              One scan opens endless possibilities—adapt, optimize, and engage smarter!
             </p>
-            
-            <button class="btn btn-warning btn-lg">
-
-              <a href="#contacts" class="btn btn-warning btn-lg">Get in touch</a>
-
-            </button>
-            
+            <ul>
+              <li><i class="bi bi-check"></i><span>Edit Anytime: Update the content behind your QR code without changing the code itself.</span></li>
+              <li><i class="bi bi-check"></i> <span>Track Performance: Get real-time insights on scans, including location, device type, and more.</span></li>
+              <li><i class="bi bi-check"></i> <span>Customizable for Your Brand: Design your QR code with your logo and colors for seamless branding.</span></li>
+              <li><i class="bi bi-check"></i> <span>Multi-functionality: Link to websites, videos, music, social media, or any digital content with just one scan.</span></li>
+              <li><i class="bi bi-check"></i> <span>Cost-Efficient: No need to reprint codes—dynamic QR codes adapt as your campaign evolves.</span></li>
+            </ul>
           </div>
-          <img
-            class="img-fluid w-50 d-none d-sm-block"
-            src="/IMAGES/Web Developer_Flatline.svg"
-            alt=""
-          />
-        </div>
+        </div><!-- Features Item -->
+
+        <div class="row gy-4 align-items-center features-item">
+          <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/podcast-qr.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7 order-2 order-md-1" data-aos="fade-up" data-aos-delay="200">
+            <h3>Ready to Amplify Your Sound?</h3>
+            <p class="fst-italic">
+              Get started with smart QR codes today and make every interaction count.
+            </p>
+            <p>
+              Easily share your latest tracks, episodes, or events with a single scan. 
+              Whether you're a DJ, musician, or podcaster, connect with your audience anytime, 
+              anywhere. Boost fan engagement, drive streams, and promote your brand 
+              seamlessly—on stage or online!
+            </p>
+          </div>
+        </div><!-- Features Item -->
+
+        <div class="row gy-4 align-items-center features-item">
+          <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out">
+            <img src="assets/img/offlinepay.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7" data-aos="fade-up">
+            <h3>Skip the line and pay in seconds!</h3>
+            <p>With our easy Scan-to-Pay system, you can complete your purchase in just a 
+              few taps—no need for cash or cards. Simply scan the QR code, 
+              choose your payment method, and you're good to go. It's fast, 
+              secure, and hassle-free. Try it now and experience the 
+              future of checkout!"</p>
+            <ul>
+              <li><i class="bi bi-check"></i> <span>Contactless Convenience: Ideal for hygienic, touch-free transactions, 
+                especially in today’s safety-conscious environment.</span></li>
+              <li><i class="bi bi-check"></i><span> Cost-Effective Setup: No need for expensive hardware—just 
+                display the code, and you're ready to go.</span></li>
+              <li><i class="bi bi-check"></i> <span>Seamless Data Collection: Capture valuable customer insights from purchases, 
+                helping to personalize future offers and improve marketing efforts.</span>.</li>
+
+                <li><i class="bi bi-check"></i> <span>Enhanced Customer Experience: Simplify the shopping journey by allowing easy 
+                  access to product details, discounts, or loyalty programs with a single scan.</span>.</li>
+            </ul>
+          </div>
+        </div><!-- Features Item -->
+
+        <!-- <div class="row gy-4 align-items-center features-item">
+          <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out">
+            <img src="assets/img/features-4.svg" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7 order-2 order-md-1" data-aos="fade-up">
+            <h3>Quas et necessitatibus eaque impedit ipsum animi consequatur incidunt in</h3>
+            <p class="fst-italic">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua.
+            </p>
+            <p>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum
+            </p>
+          </div>
+        </div> -->
+        <!-- Features Item -->
+
       </div>
-    </section>
 
-     <!-- End of Showcase -->
-     
-     
-      <!-- Newsletter -->
-    <section class="bg-warning text-light p-5">
-        <div class="container">
-          <div class="d-md-flex justify-content-between align-items-center">
-            <h3 class="mb-3 mb-md-0">Sign Up For Our Newsletter</h3>
-            <div class="input-group news-input">
-              <input type="text" class="form-control" placeholder="Enter Email" />
-              <button class="btn btn-dark btn-lg" type="button">Submit</button>
-            </div>
+    </section><!-- /Features Section -->
+
+    <!-- Gallery Section -->
+    <!-- <section id="gallery" class="gallery section"> -->
+
+      <!-- Section Title -->
+      <!-- <div class="container section-title" data-aos="fade-up">
+        <h2>Gallery</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div> -->
+      <!-- End Section Title -->
+
+      <!-- <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "centeredSlides": true,
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 0
+                },
+                "768": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 30
+                },
+                "992": {
+                  "slidesPerView": 5,
+                  "spaceBetween": 30
+                },
+                "1200": {
+                  "slidesPerView": 7,
+                  "spaceBetween": 30
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery-full" href="assets/img/app-gallery/app-gallery-1.png"><img src="assets/img/app-gallery/app-gallery-1.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery-full" href="assets/img/app-gallery/app-gallery-2.png"><img src="assets/img/app-gallery/app-gallery-2.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery-full" href="assets/img/app-gallery/app-gallery-3.png"><img src="assets/img/app-gallery/app-gallery-3.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery-full" href="assets/img/app-gallery/app-gallery-4.png"><img src="assets/img/app-gallery/app-gallery-4.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery-full" href="assets/img/app-gallery/app-gallery-5.png"><img src="assets/img/app-gallery/app-gallery-5.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery-full" href="assets/img/app-gallery/app-gallery-6.png"><img src="assets/img/app-gallery/app-gallery-6.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery-full" href="assets/img/app-gallery/app-gallery-7.png"><img src="assets/img/app-gallery/app-gallery-7.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery-full" href="assets/img/app-gallery/app-gallery-8.png"><img src="assets/img/app-gallery/app-gallery-8.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery-full" href="assets/img/app-gallery/app-gallery-9.png"><img src="assets/img/app-gallery/app-gallery-9.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery-full" href="assets/img/app-gallery/app-gallery-10.png"><img src="assets/img/app-gallery/app-gallery-10.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery-full" href="assets/img/app-gallery/app-gallery-11.png"><img src="assets/img/app-gallery/app-gallery-11.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery-full" href="assets/img/app-gallery/app-gallery-12.png"><img src="assets/img/app-gallery/app-gallery-12.png" class="img-fluid" alt=""></a></div>
           </div>
+          <div class="swiper-pagination"></div>
         </div>
-      </section>
 
-      <!-- End of Newsletter -->
+      </div> -->
 
+    <!-- </section> -->
+    <!-- /Gallery Section -->
 
+    <!-- Testimonials Section -->
+    <!-- <section id="testimonials" class="testimonials section light-background"> -->
 
-      <!-- Boxes -->
-    <section class="p-5">
-        <div class="container">
-          <div class="row text-center g-4">
-            <div class="col-md">
-              <div class="card bg-dark text-light">
-                <div class="card-body text-center">
-                  <div class="h1 mb-3">
-                    <i class="bi bi-laptop"></i>
-                  </div>
-                  <h3 class="card-title mb-3">Development</h3>
-                  <p class="card-text">
-                    Our tech tools have been carefully selected 
-                    to suit every type of modern business website. 
-                  </p>
-                  <a href="#contacts" class="btn btn-primary">Stay in touch</a>
+      <!-- Section Title -->
+      <!-- <div class="container section-title" data-aos="fade-up">
+        <h2>Testimonials</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div> -->
+      <!-- End Section Title -->
+<!-- 
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>With over 2 billion users on whatsapp,make easy for your customers to reach out by scanning your QR Code instore </span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
               </div>
-            </div>
-            <div class="col-md">
-              <div class="card bg-secondary text-light">
-                <div class="card-body text-center">
-                  <div class="h1 mb-3">
-                    <i class="bi bi-person-square"></i>
-                  </div>
-                  <h3 class="card-title mb-3">Design Aesthetics</h3>
-                  <p class="card-text">
-                    With our fluid design approach your website 
-                    will look good on all screen sizes. 
-                  </p>
-                  <a href="#contacts" class="btn btn-dark">Stay in touch</a>
+            </div> -->
+            <!-- End testimonial item -->
+<!-- 
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
               </div>
-            </div>
-            <div class="col-md">
-              <div class="card bg-dark text-light">
-                <div class="card-body text-center">
-                  <div class="h1 mb-3">
-                    <i class="bi bi-people"></i>
-                  </div>
-                  <h3 class="card-title mb-3">Video Production</h3>
-                  <p class="card-text">
-                    Our video production is top notch, 
-                    we take care of all your video needs 
-                    from shorts to long formats.
-                  </p>
-                  <a href="https://www.youtube.com/watch?v=wTLEEtrA-9E" class="btn btn-danger">Watch</a>
+            </div> -->
+            <!-- End testimonial item -->
+<!-- 
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
               </div>
+            </div> -->
+            <!-- End testimonial item -->
+
+            <!-- <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div> -->
+            <!-- End testimonial item -->
+<!-- 
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div> -->
+            <!-- End testimonial item -->
+<!-- 
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section> -->
+    <!-- /Testimonials Section -->
+
+    <!-- Pricing Section -->
+    <!-- <section id="pricing" class="pricing section"> -->
+
+      <!-- Section Title -->
+      <!-- <div class="container section-title" data-aos="fade-up">
+        <h2>Pricing</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div> -->
+      <!-- End Section Title -->
+
+      <!-- <div class="container" data-aos="zoom-in" data-aos-delay="100">
+
+        <div class="row g-4">
+
+          <div class="col-lg-4">
+            <div class="pricing-item">
+              <h3>Free Plan</h3>
+              <div class="icon">
+                <i class="bi bi-box"></i>
+              </div>
+              <h4><sup>$</sup>0<span> / month</span></h4>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
+                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
+                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Pharetra massa massa ultricies</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
+              </ul>
+              <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
             </div>
-          </div>
-        </div>
-      </section>
+          </div> -->
+          <!-- End Pricing Item -->
+<!-- 
+          <div class="col-lg-4">
+            <div class="pricing-item featured">
+              <h3>Business Plan</h3>
+              <div class="icon">
+                <i class="bi bi-rocket"></i>
+              </div>
 
+              <h4><sup>$</sup>29<span> / month</span></h4>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
+                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
+                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
+                <li><i class="bi bi-check"></i> <span>Pharetra massa massa ultricies</span></li>
+                <li><i class="bi bi-check"></i> <span>Massa ultricies mi quis hendrerit</span></li>
+              </ul>
+              <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
+            </div>
+          </div> -->
+          <!-- End Pricing Item -->
+<!-- 
+          <div class="col-lg-4">
+            <div class="pricing-item">
+              <h3>Developer Plan</h3>
+              <div class="icon">
+                <i class="bi bi-send"></i>
+              </div>
+              <h4><sup>$</sup>49<span> / month</span></h4>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
+                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
+                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
+                <li><i class="bi bi-check"></i> <span>Pharetra massa massa ultricies</span></li>
+                <li><i class="bi bi-check"></i> <span>Massa ultricies mi quis hendrerit</span></li>
+              </ul>
+              <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
+            </div>
+          </div> -->
+          <!-- End Pricing Item -->
 
-      
-<!-- ======= Pricing Section ======= -->
-<section id="pricing" class="pricing">
-  <div class="container" data-aos="fade-up">
+        <!-- </div>
 
-    <div class="section-title">
-      <h2>Pricing</h2>
-      <p>Enjoy priority support from our dedicated team of experts. 
-        From technical assistance to personalized recommendations, 
-        we're here to ensure that you receive the highest level of service and attention.</p>
-    </div>
-
-    <div class="row">
-
-      <div class="col-lg-4 col-md-6" data-aos="zoom-im" data-aos-delay="100">
-        <div class="box">
-          <h3>Starter</h3>
-          <h4><sup>R</sup>300<span> / month</span></h4>
-          <ul>
-            <li>Free domain for 12 months</li>
-            <li>Free Hosting for 6 months</li>
-            <li>On page basic SEO </li>
-            <li>Social media Intergration </li>
-            <li class="na">Free email hosting</li>
-            <li class="na">Complementary security upgrades</li>
-          </ul>
-          <div class="btn-wrap">
-            <a href="#contacts" class="btn-buy">Order Now</a>
-          </div>
-        </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="100">
-        <div class="box featured">
-          <h3>Business Pro</h3>
-          <h4><sup>R</sup>600<span> / month</span></h4>
-          <ul>
-            <li>Stunning Front-End Design</li>
-            <li>Responsive and Mobile-Optimized</li>
-            <li>Robust Back-End Development</li>
-            <li>Customized Functionality</li>
-            <li>Performance Optimization</li>
-            <li>Ongoing Support and Maintenance</li>
-            <li>Monthly Google Analytics Reports</li>
+    </section> -->
+    <!-- /Pricing Section -->
 
-            
-            <!-- <li class="na">Massa ultricies mi</li> -->
-          </ul>
-          <div class="btn-wrap">
-            <a href="#contacts" class="btn-buy">Order Now</a>
-          </div>
-        </div>
-      </div>
+    <!-- Faq Section -->
+    <section id="faq" class="faq section">
 
-      <div class="col-lg-4 col-md-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="100">
-        <div class="box">
-          <h3>E-Commerce</h3>
-          <h4><sup>R</sup>900<span> / month</span></h4>
-          <ul>
-            <li>Professional Online Store</li>
-            <li>Seamless Shopping Experience</li>
-            <li>Powerful Product Management</li>
-            <li>Secure Payment Gateway Integration</li>
-            <li>Streamlined Order Management</li>
-            <li>Search Engine Optimization (SEO)</li>
-          </ul>
-          <div class="btn-wrap">
-            <a href="#contacts" class="btn-buy">Order Now</a>
-          </div>
-        </div>
-      </div>
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Frequently Asked Questions</h2>
+        <p>Explore our FAQs or contact our sales team to see how QR codes can transform your business.</p>
+      </div><!-- End Section Title -->
 
-    </div>
-
-  </div>
-</section><!-- End Pricing Section -->
-
-
-      <!-- Questions -->
-
-      <!-- Question Accordion -->
-    <section id="questions" class="p-5">
       <div class="container">
-        <h2 class="text-center mb-4">Frequently Asked Questions</h2>
-        <div class="accordion accordion-flush" id="questions">
-          <!-- Item 1 -->
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#question-one"
-              >
-                How long does it take to design 
-                and develop a website?
-              </button>
-            </h2>
-            <div
-              id="question-one"
-              class="accordion-collapse collapse"
-              data-bs-parent="#questions"
-            >
-              <div class="accordion-body">
-                Depending on the size, complexity and, 
-                most critically, the client’s active involvement 
-                in the process, a website takes anywhere between 
-                six and 24 weeks to build and launch. 
-                Some incredibly large projects have 
-                broken the year mark.
 
-                We have a team of developers and web designers, 
-                as well as the project management processes, 
-                in place to build and deliver the most friendly, 
-                accessible and speed-optimized websites available.
-              </div>
-            </div>
-          </div>
-          <!-- Item 2 -->
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#question-two"
-              >
-                What is your tech stack of choice and why?
-              </button>
-            </h2>
-            <div
-              id="question-two"
-              class="accordion-collapse collapse"
-              data-bs-parent="#questions"
-            >
-              <div class="accordion-body">
-               For our everyday staples we use HTML, CSS and Javascript 
-               to build small business websites, these tools are better for SEO. 
-               For bigger projects we add reactjs, bootstrap and Nodejs on 
-               the server side. 
-              </div>
-            </div>
-          </div>
-          <!-- Item 3 -->
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#question-three"
-              >
-                Do you use CMS?
-              </button>
-            </h2>
-            <div
-              id="question-three"
-              class="accordion-collapse collapse"
-              data-bs-parent="#questions"
-            >
-              <div class="accordion-body">
-                We do use CMS as and when the client request us to, 
-                we do however prefer traditional tech stack 
-                as it means we are able to fully customise your 
-                site and make you stand out from the crowd.
-              </div>
-            </div>
-          </div>
-          <!-- Item 4 -->
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#question-four"
-              >
-                Do you take care of hosting?
-              </button>
-            </h2>
-            <div
-              id="question-four"
-              class="accordion-collapse collapse"
-              data-bs-parent="#questions"
-            >
-              <div class="accordion-body">
-                Most of our packages come with 
-                12 months free hosting and 
-                SSL Certificate.
-              </div>
-            </div>
-          </div>
-          <!-- Item 5 -->
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#question-five"
-              >
-                Can you handle on going maintenance?
-              </button>
-            </h2>
-            <div
-              id="question-five"
-              class="accordion-collapse collapse"
-              data-bs-parent="#questions"
-            >
-              <div class="accordion-body">
-                Yes! In fact, if we built your website, 
-                we’d really love to handle maintenance. 
-                We’re going to be the party most intimately 
-                familiar with how your website works, and 
-                are going to be on top of upgrades and patches 
-                to keep the site in top shape.
+        <div class="row justify-content-center">
 
-                A maintenance plan can include CMS upgrades, 
-                hosting management, content updates, 
-                security monitoring and many other technical 
-                and editorial services.
-              </div>
+          <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="faq-container">
+
+              <div class="faq-item faq-active">
+                <h3>What is a QR Code and how does it work?</h3>
+                <div class="faq-content">
+                  <p>A QR code (Quick Response code) is a type of barcode that can be scanned with a smartphone camera, 
+                    instantly directing users to digital content like websites, payment systems, or contact information.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>Do I need a special app to scan QR Codes?</h3>
+                <div class="faq-content">
+                  <p>No, most modern smartphones have built-in camera apps that can scan QR codes directly. 
+                    Simply open your camera, point it at the code, and follow the on-screen prompt.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>What’s the difference between static and dynamic QR Codes?</h3>
+                <div class="faq-content">
+                  <p>A static QR code has fixed information that cannot be changed after it's generated. 
+                    A dynamic QR code allows you to edit the linked content anytime, track scan data, 
+                    and update details without changing the code.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>Are QR Codes secure to use?</h3>
+                <div class="faq-content">
+                  <p>Yes, QR codes themselves are safe, but always ensure that the destination or 
+                    content they link to is trusted. Scanning a QR code from a reliable 
+                    source ensures a secure experience.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>What kind of information can a QR Code store?</h3>
+                <div class="faq-content">
+                  <p>QR codes can link to websites, social media profiles, payment systems, 
+                    contact details, videos, PDFs, and much more. Dynamic QR codes also allow 
+                    for real-time updates to the content.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>Can I customize the design of my QR Code?</h3>
+                <div class="faq-content">
+                  <p>Yes! You can create custom QR codes with your brand’s colors, logo, 
+                    and design elements to make them more attractive and aligned with 
+                    your business image.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
             </div>
-          </div>
+
+          </div><!-- End Faq Column-->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Faq Section -->
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+    <div class="container">
+      <h3 class="sitename">Join the Conversation</h3>
+      <p>Stay updated with the latest trends, tips, and exclusive offers. Follow us on social media and be part of our vibrant community!</p>
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-skype"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <span>©2024 Ozio Pty Ltd |</span> Cape Town South Africa |<strong class="px-1 sitename"></strong><span>info@ozio.co.za</span>
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you've purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+          Contact<a href="https://bootstrapmade.com/">Sales</a>
         </div>
       </div>
-    </section>
+    </div>
+  </footer>
 
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-      <!--  Contacts -->
+  <!-- Preloader -->
+  <div id="preloader"></div>
 
-          <!-- Contact & Map -->
-    <section id="contacts" class="p-5">
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
 
-      <div class="content">
-        <div class="container">
-        <div class="row justify-content-center">
-        <div class="col-md-10">
-        <div class="row justify-content-center">
-        <div class="col-md-6">
-        <h3 class="heading mb-4">Let's talk about your next project!</h3>
-        <p></p>
-        <p><img src="/IMAGES/Contact.svg" alt="Image" class="img-fluid"></p>
-        </div>
-        <div class="col-md-6">
-        <form class="mb-5" action="https://formsubmit.co/skay@ozio.co.za" method="post" id="contactForm" name="contactForm" novalidate="novalidate">
-        <div class="row">
-        <div class="col-md-12 form-group">
-        <input type="text" class="form-control" name="name" id="name" placeholder="Your name">
-        </div>
-        </div>
-        <div class="row">
-        <div class="col-md-12 form-group">
-        <input type="text" class="form-control" name="email" id="email" placeholder="yourname@gmail.com">
-        </div>
-        </div>
-         <div class="row">
-          <div class="col-md-12 form-group">
-          <input type="text" class="form-control" name="mobile" id="mobile" placeholder="+27(0) 72 335 5550">
-          </div>
-          </div>  
-        <div class="row">
-        <div class="col-md-12 form-group">
-        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
-        </div>
-        </div>
-        <div class="row">
-        <div class="col-md-12 form-group">
-        <textarea class="form-control" name="message" id="message" cols="30" rows="7" placeholder="Write your message"></textarea>
-        </div>
-        </div>
-        <div class="row">
-         
-        <div class="col-12">
-          <br>
-        <input type="submit" value="Send Message" class="btn btn-dark rounded-0 py-2 px-4">
-        <span class="submitting"></span>
-        </div>
-        </div>
-        </form>
-        <div id="form-message-warning mt-4"></div>
-        <div id="form-message-success">
-        <!-- Your message was sent, thank you! -->
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-                  
-            
-    </section>
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
 
-      <!-- footer -->
+</body>
 
-      <!-- Footer -->
-    <footer class="p-5 bg-dark text-white text-center position-relative">
-       <!-- Section: Social media -->
-    <section class="mb-4">
-      <!-- Facebook -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-
-        <img src="/IMAGES/icons8-facebook-circled.svg" class="socials" alt="">
-      </a>
-
-      <!-- Twitter -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-
-        <img src="/IMAGES/Twitter-color.png" class="socials" alt="">
-      </a>
-
-      <!-- Google -->
-      <!-- <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-      </a> -->
-
-      <!-- Instagram -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-        <img src="/IMAGES/Instagram-color.png" class="socials" alt="">
-
-        
-      </a>
-        
-      <!-- Linkedin -->
-      <a class="btn btn-outline-light btn-floating m-1" href="" role="button">
-
-        <img src="/IMAGES/Linkedin-color.png" class="socials" alt="">
-      </a>
-
-      <!-- Github -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-
-        <img src="/IMAGES/Github-color.png" class="socials" alt="">
-      </a>
-    </section>
-    <!-- Section: Social media -->
-  </div>
-
-        <div class="container">
-          <p class="lead"> &copy; 2021-2023 Ozio Pty. Ltd. All rights Reserved.</p>
-  
-          <a href="#" class="position-absolute bottom-0 end-0 p-5">
-            <i class="bi bi-arrow-up-circle h1"></i>
-          </a>
-        </div>
-      </footer>
-  
-  
-  
-
-
-  
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
-  </body>
+</html>
